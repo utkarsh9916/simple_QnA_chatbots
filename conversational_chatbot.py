@@ -8,8 +8,8 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure the generative AI model
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
+genai.configure(api_key=os.getenv("Add your api key"))
 model = genai.GenerativeModel("gemini-pro")
 chat = model.start_chat(history=[])
 
