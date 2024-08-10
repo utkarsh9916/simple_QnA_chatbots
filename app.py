@@ -6,7 +6,7 @@ import os
 import google.generativeai as genai
 
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("Add your api key"))
 
 #  functions to load gemini pro model and get responses
 
